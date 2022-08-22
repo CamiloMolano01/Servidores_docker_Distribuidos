@@ -1,0 +1,72 @@
+2022-08-03T21:21:09+00:00 172.25.0.1 mysql[2108]: 2022-08-04 02:21:09+00:00 [Note] [Entrypoint]: Switching to dedicated user 'mysql'
+2022-08-03T21:21:09+00:00 172.25.0.1 mysql[2108]: 2022-08-04 02:21:09+00:00 [Note] [Entrypoint]: Entrypoint script for MySQL Server 5.7.39-1.el7 started.
+2022-08-03T21:21:09+00:00 172.25.0.1 s_app1[2108]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.25.0.4. Set the 'ServerName' directive globally to suppress this message
+2022-08-03T21:21:09+00:00 172.25.0.1 s_app2[2108]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.25.0.3. Set the 'ServerName' directive globally to suppress this message
+2022-08-03T21:21:09+00:00 172.25.0.1 mysql[2108]: '/var/lib/mysql/mysql.sock' -> '/var/run/mysqld/mysqld.sock'
+2022-08-03T21:21:10+00:00 172.25.0.1 s_app1[2108]: [Thu Aug 04 02:21:10.049542 2022] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.2.34 configured -- resuming normal operations
+2022-08-03T21:21:10+00:00 172.25.0.1 s_app1[2108]: [Thu Aug 04 02:21:10.049621 2022] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+2022-08-03T21:21:10+00:00 172.25.0.1 s_app2[2108]: [Thu Aug 04 02:21:10.051915 2022] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.2.34 configured -- resuming normal operations
+2022-08-03T21:21:10+00:00 172.25.0.1 s_app2[2108]: [Thu Aug 04 02:21:10.051990 2022] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+2022-08-03T21:21:10+00:00 172.25.0.1 mysql[2108]: 2022-08-04T02:21:10.171836Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2022-08-03T21:21:10+00:00 172.25.0.1 mysql[2108]: 2022-08-04T02:21:10.173278Z 0 [Note] mysqld (mysqld 5.7.39) starting as process 1 ...
+2022-08-03T21:21:10+00:00 172.25.0.1 mysql[2108]: 2022-08-04T02:21:10.177896Z 0 [Note] InnoDB: PUNCH HOLE support available
+2022-08-03T21:21:10+00:00 172.25.0.1 mysql[2108]: 2022-08-04T02:21:10.177919Z 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2022-08-03T21:21:10+00:00 172.25.0.1 mysql[2108]: 2022-08-04T02:21:10.177923Z 0 [Note] InnoDB: Uses event mutexes
+2022-08-03T21:21:10+00:00 172.25.0.1 mysql[2108]: 2022-08-04T02:21:10.177926Z 0 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+2022-08-03T21:21:10+00:00 172.25.0.1 mysql[2108]: 2022-08-04T02:21:10.177928Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.12
+2022-08-03T21:21:10+00:00 172.25.0.1 mysql[2108]: 2022-08-04T02:21:10.177931Z 0 [Note] InnoDB: Using Linux native AIO
+2022-08-03T21:21:10+00:00 172.25.0.1 mysql[2108]: 2022-08-04T02:21:10.179486Z 0 [Note] InnoDB: Number of pools: 1
+2022-08-03T21:21:10+00:00 172.25.0.1 mysql[2108]: 2022-08-04T02:21:10.181476Z 0 [Note] InnoDB: Using CPU crc32 instructions
+2022-08-03T21:21:10+00:00 172.25.0.1 mysql[2108]: 2022-08-04T02:21:10.183044Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2022-08-03T21:21:10+00:00 172.25.0.1 mysql[2108]: 2022-08-04T02:21:10.194065Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-08-03T21:21:10+00:00 172.25.0.1 mysql[2108]: 2022-08-04T02:21:10.196205Z 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2022-08-03T21:21:10+00:00 172.25.0.1 mysql[2108]: 2022-08-04T02:21:10.214900Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2022-08-03T21:21:10+00:00 172.25.0.1 mysql[2108]: 2022-08-04T02:21:10.398876Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-08-03T21:21:10+00:00 172.25.0.1 mysql[2108]: 2022-08-04T02:21:10.399162Z 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-08-03T21:21:11+00:00 172.25.0.1 mysql[2108]: 2022-08-04T02:21:11.957494Z 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2022-08-03T21:21:11+00:00 172.25.0.1 mysql[2108]: 2022-08-04T02:21:11.962739Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2022-08-03T21:21:11+00:00 172.25.0.1 mysql[2108]: 2022-08-04T02:21:11.964180Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2022-08-03T21:21:11+00:00 172.25.0.1 mysql[2108]: 2022-08-04T02:21:11.968707Z 0 [Note] InnoDB: 5.7.39 started; log sequence number 12686209
+2022-08-03T21:21:11+00:00 172.25.0.1 mysql[2108]: 2022-08-04T02:21:11.969447Z 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2022-08-03T21:21:11+00:00 172.25.0.1 mysql[2108]: 2022-08-04T02:21:11.969961Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2022-08-03T21:21:12+00:00 172.25.0.1 mysql[2108]: 2022-08-04T02:21:12.271135Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.
+2022-08-03T21:21:12+00:00 172.25.0.1 mysql[2108]: 2022-08-04T02:21:12.271237Z 0 [Note] Skipping generation of SSL certificates as certificate files are present in data directory.
+2022-08-03T21:21:12+00:00 172.25.0.1 mysql[2108]: 2022-08-04T02:21:12.271256Z 0 [Warning] A deprecated TLS version TLSv1 is enabled. Please use TLSv1.2 or higher.
+2022-08-03T21:21:12+00:00 172.25.0.1 mysql[2108]: 2022-08-04T02:21:12.271267Z 0 [Warning] A deprecated TLS version TLSv1.1 is enabled. Please use TLSv1.2 or higher.
+2022-08-03T21:21:12+00:00 172.25.0.1 mysql[2108]: 2022-08-04T02:21:12.271413Z 0 [Note] InnoDB: Buffer pool(s) load completed at 220804  2:21:12
+2022-08-03T21:21:12+00:00 172.25.0.1 mysql[2108]: 2022-08-04T02:21:12.276118Z 0 [Warning] CA certificate ca.pem is self signed.
+2022-08-03T21:21:12+00:00 172.25.0.1 mysql[2108]: 2022-08-04T02:21:12.276291Z 0 [Note] Skipping generation of RSA key pair as key files are present in data directory.
+2022-08-03T21:21:12+00:00 172.25.0.1 mysql[2108]: 2022-08-04T02:21:12.277891Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2022-08-03T21:21:12+00:00 172.25.0.1 mysql[2108]: 2022-08-04T02:21:12.277976Z 0 [Note] IPv6 is available.
+2022-08-03T21:21:12+00:00 172.25.0.1 mysql[2108]: 2022-08-04T02:21:12.278004Z 0 [Note]   - '::' resolves to '::';
+2022-08-03T21:21:12+00:00 172.25.0.1 mysql[2108]: 2022-08-04T02:21:12.278130Z 0 [Note] Server socket created on IP: '::'.
+2022-08-03T21:21:12+00:00 172.25.0.1 mysql[2108]: 2022-08-04T02:21:12.368373Z 0 [Warning] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2022-08-03T21:21:12+00:00 172.25.0.1 mysql[2108]: 2022-08-04T02:21:12.589678Z 0 [Warning] Optional native table 'performance_schema'.'processlist' has the wrong structure or is missing.
+2022-08-03T21:21:12+00:00 172.25.0.1 mysql[2108]: 2022-08-04T02:21:12.591378Z 0 [Note] Event Scheduler: Loaded 0 events
+2022-08-03T21:21:12+00:00 172.25.0.1 mysql[2108]: 2022-08-04T02:21:12.591719Z 0 [Note] mysqld: ready for connections.
+2022-08-03T21:21:12+00:00 172.25.0.1 mysql[2108]: Version: '5.7.39'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server (GPL)
+2022-08-03T21:22:38+00:00 172.25.0.1 s_app2[2108]: 172.25.0.1 - - [04/Aug/2022:02:22:38 +0000] "GET / HTTP/1.1" 200 3463 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:103.0) Gecko/20100101 Firefox/103.0"
+2022-08-03T21:22:38+00:00 172.25.0.1 s_app2[2108]: 172.25.0.1 - - [04/Aug/2022:02:22:38 +0000] "GET /images/ubuntu-logo.png HTTP/1.1" 200 3607 "http://localhost:3014/" "Mozilla/5.0 (X11; Linux x86_64; rv:103.0) Gecko/20100101 Firefox/103.0"
+2022-08-03T21:22:38+00:00 172.25.0.1 s_app2[2108]: 172.25.0.1 - - [04/Aug/2022:02:22:38 +0000] "GET /favicon.ico HTTP/1.1" 404 489 "http://localhost:3014/" "Mozilla/5.0 (X11; Linux x86_64; rv:103.0) Gecko/20100101 Firefox/103.0"
+2022-08-03T21:22:43+00:00 172.25.0.1 s_app1[2108]: 172.25.0.1 - - [04/Aug/2022:02:22:43 +0000] "GET / HTTP/1.1" 200 3463 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:103.0) Gecko/20100101 Firefox/103.0"
+2022-08-03T21:22:43+00:00 172.25.0.1 s_app1[2108]: 172.25.0.1 - - [04/Aug/2022:02:22:43 +0000] "GET /images/ubuntu-logo.png HTTP/1.1" 200 3607 "http://localhost:3012/" "Mozilla/5.0 (X11; Linux x86_64; rv:103.0) Gecko/20100101 Firefox/103.0"
+2022-08-03T21:22:43+00:00 172.25.0.1 s_app1[2108]: 172.25.0.1 - - [04/Aug/2022:02:22:43 +0000] "GET /favicon.ico HTTP/1.1" 404 489 "http://localhost:3012/" "Mozilla/5.0 (X11; Linux x86_64; rv:103.0) Gecko/20100101 Firefox/103.0"
+2022-08-03T21:22:46+00:00 172.25.0.1 s_app1[2108]: 172.25.0.6 - - [04/Aug/2022:02:22:46 +0000] "GET / HTTP/1.1" 200 3463 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:103.0) Gecko/20100101 Firefox/103.0"
+2022-08-03T21:22:46+00:00 172.25.0.1 s_app2[2108]: 172.25.0.6 - - [04/Aug/2022:02:22:46 +0000] "GET /images/ubuntu-logo.png HTTP/1.1" 200 3608 "http://localhost:8001/" "Mozilla/5.0 (X11; Linux x86_64; rv:103.0) Gecko/20100101 Firefox/103.0"
+2022-08-03T21:22:46+00:00 172.25.0.1 s_app1[2108]: 172.25.0.6 - - [04/Aug/2022:02:22:46 +0000] "GET /favicon.ico HTTP/1.1" 404 489 "http://localhost:8001/" "Mozilla/5.0 (X11; Linux x86_64; rv:103.0) Gecko/20100101 Firefox/103.0"
+2022-08-03T21:22:48+00:00 172.25.0.1 s_app1[2108]: 172.25.0.6 - - [04/Aug/2022:02:22:48 +0000] "GET / HTTP/1.1" 200 3462 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:103.0) Gecko/20100101 Firefox/103.0"
+2022-08-03T21:22:49+00:00 172.25.0.1 s_app2[2108]: 172.25.0.6 - - [04/Aug/2022:02:22:49 +0000] "GET / HTTP/1.1" 200 3463 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:103.0) Gecko/20100101 Firefox/103.0"
+2022-08-03T21:22:49+00:00 172.25.0.1 s_app1[2108]: 172.25.0.6 - - [04/Aug/2022:02:22:49 +0000] "GET /images/ubuntu-logo.png HTTP/1.1" 200 3608 "http://localhost:8001/" "Mozilla/5.0 (X11; Linux x86_64; rv:103.0) Gecko/20100101 Firefox/103.0"
+2022-08-03T21:22:49+00:00 172.25.0.1 s_app2[2108]: 172.25.0.6 - - [04/Aug/2022:02:22:49 +0000] "GET /favicon.ico HTTP/1.1" 404 489 "http://localhost:8001/" "Mozilla/5.0 (X11; Linux x86_64; rv:103.0) Gecko/20100101 Firefox/103.0"
+2022-08-03T21:22:50+00:00 172.25.0.1 s_app1[2108]: 172.25.0.6 - - [04/Aug/2022:02:22:50 +0000] "GET / HTTP/1.1" 200 3463 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:103.0) Gecko/20100101 Firefox/103.0"
+2022-08-03T21:22:50+00:00 172.25.0.1 s_app2[2108]: 172.25.0.6 - - [04/Aug/2022:02:22:50 +0000] "GET /images/ubuntu-logo.png HTTP/1.1" 200 3608 "http://localhost:8001/" "Mozilla/5.0 (X11; Linux x86_64; rv:103.0) Gecko/20100101 Firefox/103.0"
+2022-08-03T21:22:50+00:00 172.25.0.1 s_app1[2108]: 172.25.0.6 - - [04/Aug/2022:02:22:50 +0000] "GET /favicon.ico HTTP/1.1" 404 489 "http://localhost:8001/" "Mozilla/5.0 (X11; Linux x86_64; rv:103.0) Gecko/20100101 Firefox/103.0"
+2022-08-03T21:22:50+00:00 172.25.0.1 s_app2[2108]: 172.25.0.6 - - [04/Aug/2022:02:22:50 +0000] "GET / HTTP/1.1" 200 3463 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:103.0) Gecko/20100101 Firefox/103.0"
+2022-08-03T21:22:50+00:00 172.25.0.1 s_app1[2108]: 172.25.0.6 - - [04/Aug/2022:02:22:50 +0000] "GET /images/ubuntu-logo.png HTTP/1.1" 200 3608 "http://localhost:8001/" "Mozilla/5.0 (X11; Linux x86_64; rv:103.0) Gecko/20100101 Firefox/103.0"
+2022-08-03T21:22:50+00:00 172.25.0.1 s_app2[2108]: 172.25.0.6 - - [04/Aug/2022:02:22:50 +0000] "GET /favicon.ico HTTP/1.1" 404 489 "http://localhost:8001/" "Mozilla/5.0 (X11; Linux x86_64; rv:103.0) Gecko/20100101 Firefox/103.0"
+2022-08-03T21:22:51+00:00 172.25.0.1 s_app1[2108]: 172.25.0.6 - - [04/Aug/2022:02:22:51 +0000] "GET / HTTP/1.1" 200 3463 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:103.0) Gecko/20100101 Firefox/103.0"
+2022-08-03T21:22:51+00:00 172.25.0.1 s_app2[2108]: 172.25.0.6 - - [04/Aug/2022:02:22:51 +0000] "GET /images/ubuntu-logo.png HTTP/1.1" 200 3608 "http://localhost:8001/" "Mozilla/5.0 (X11; Linux x86_64; rv:103.0) Gecko/20100101 Firefox/103.0"
+2022-08-03T21:22:51+00:00 172.25.0.1 s_app1[2108]: 172.25.0.6 - - [04/Aug/2022:02:22:51 +0000] "GET /favicon.ico HTTP/1.1" 404 489 "http://localhost:8001/" "Mozilla/5.0 (X11; Linux x86_64; rv:103.0) Gecko/20100101 Firefox/103.0"
+2022-08-03T21:22:58+00:00 172.25.0.1 s_app2[2108]: 127.0.0.1 - - [04/Aug/2022:02:22:58 +0000] "OPTIONS * HTTP/1.0" 200 126 "-" "Apache/2.4.38 (Debian) PHP/7.2.34 (internal dummy connection)"
+2022-08-03T21:22:59+00:00 172.25.0.1 s_app2[2108]: 127.0.0.1 - - [04/Aug/2022:02:22:59 +0000] "OPTIONS * HTTP/1.0" 200 126 "-" "Apache/2.4.38 (Debian) PHP/7.2.34 (internal dummy connection)"
+2022-08-03T21:23:00+00:00 172.25.0.1 s_app2[2108]: 127.0.0.1 - - [04/Aug/2022:02:23:00 +0000] "OPTIONS * HTTP/1.0" 200 126 "-" "Apache/2.4.38 (Debian) PHP/7.2.34 (internal dummy connection)"

@@ -1,0 +1,68 @@
+version: "1.0"
+
+services:
+   
+   s_balancer:
+     image: camilomolano14/php_apache_mysql:v1
+     container_name: s_balancer
+     ports:
+       - 8001:8000
+     volumes:
+       - /home/camilo/Documents/docker_servidores_apache/volumen_LB/apache2:/etc/apache2
+   
+   s_rsyslog: 
+     image: camilomolano14/my_rsyslog
+     hostname: syslog
+     container_name: syslog
+     restart: always
+     volumes:
+       - /home/camilo/Documents/docker_servidores_apache/volumen_rsyslog/log:/var/log
+     ports: 
+       - 3010:514
+       - 3010:514/udp
+     cap_add:
+       - SYSLOG
+      
+   s_app1:
+     image: camilomolano14/php_apache_mysql:v1
+     container_name: s_app1
+     ports:
+       - 3012:80
+     volumes:
+       - /home/camilo/Documents/docker_servidores_apache/volumen_serv1/html:/var/www/html
+     logging:
+      driver: "syslog"
+      options:
+        syslog-address: "tcp://localhost:3010"
+        tag: "{{.Name}}"
+        
+   s_app2:
+     image: camilomolano14/php_apache_mysql:v1
+     container_name: s_app2
+     ports:
+       - 3014:80
+     volumes:
+       - /home/camilo/Documents/docker_servidores_apache/volumen_serv2/html:/var/www/html
+     logging:
+      driver: "syslog"
+      options:
+        syslog-address: "tcp://localhost:3010"
+        tag: "{{.Name}}"
+       
+   mysql:
+     image: mysql:5.7
+     container_name: mysql
+     ports:
+       - 3306:3306
+     volumes:
+       - /home/camilo/Documents/docker_servidores_apache/volumen_mysql_1:/var/lib/mysql
+     environment:
+       MYSQL_ROOT_PASSWORD: admin14
+       MYSQL_DATABASE: products_database
+       MYSQL_USER: wwwdata
+       MYSQL_PASSWORD: 12345678
+     logging:
+      driver: "syslog"
+      options:
+        syslog-address: "tcp://localhost:3010"
+        tag: "{{.Name}}"

@@ -1,0 +1,29 @@
+version: "1.0"
+
+services:	
+   
+   servidor1:
+     image: php_apache_mysql:v1
+     ports:
+       - 3012:80
+     volumes:
+       - /home/camilo/Documents/docker_servidores_apache/volumen_serv1/html:/var/www/html
+   
+   servidor2:
+     image: php_apache_mysql:v1
+     ports:
+       - 3014:80
+     volumes:
+       - /home/camilo/Documents/docker_servidores_apache/volumen_serv2/html:/var/www/html
+
+   mysql:
+     image: mysql:5.7
+     ports:
+       - 3306:3306
+     volumes:
+       - /home/camilo/Documents/docker_servidores_apache/volumen_mysql_1:/var/lib/mysql
+     environment:
+       MYSQL_ROOT_PASSWORD: admin14
+       MYSQL_DATABASE: products_database
+       MYSQL_USER: wwwdata
+       MYSQL_PASSWORD: 12345678

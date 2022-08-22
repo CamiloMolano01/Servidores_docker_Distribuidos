@@ -1,0 +1,143 @@
+2022-07-03T13:54:04+00:00 172.24.0.1 servers-s_app2-1[2236]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.24.0.3. Set the 'ServerName' directive globally to suppress this message
+2022-07-03T13:54:04+00:00 172.24.0.1 servers-s_app2-1[2236]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.24.0.3. Set the 'ServerName' directive globally to suppress this message
+2022-07-03T13:54:04+00:00 172.24.0.1 servers-s_app2-1[2236]: [Sun Jul 03 18:54:04.263280 2022] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.2.34 configured -- resuming normal operations
+2022-07-03T13:54:04+00:00 172.24.0.1 servers-s_app2-1[2236]: [Sun Jul 03 18:54:04.263692 2022] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+2022-07-03T13:54:04+00:00 172.24.0.1 servers-mysql-1[2236]: 2022-07-03 18:54:04+00:00 [Note] [Entrypoint]: Entrypoint script for MySQL Server 5.7.38-1debian10 started.
+2022-07-03T13:54:04+00:00 172.24.0.1 servers-mysql-1[2236]: 2022-07-03 18:54:04+00:00 [Note] [Entrypoint]: Switching to dedicated user 'mysql'
+2022-07-03T13:54:04+00:00 172.24.0.1 servers-mysql-1[2236]: 2022-07-03 18:54:04+00:00 [Note] [Entrypoint]: Entrypoint script for MySQL Server 5.7.38-1debian10 started.
+2022-07-03T13:54:04+00:00 172.24.0.1 servers-mysql-1[2236]: 2022-07-03T18:54:04.492048Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2022-07-03T13:54:04+00:00 172.24.0.1 servers-mysql-1[2236]: 2022-07-03T18:54:04.493397Z 0 [Note] mysqld (mysqld 5.7.38) starting as process 1 ...
+2022-07-03T13:54:04+00:00 172.24.0.1 servers-mysql-1[2236]: 2022-07-03T18:54:04.496475Z 0 [Note] InnoDB: PUNCH HOLE support available
+2022-07-03T13:54:04+00:00 172.24.0.1 servers-mysql-1[2236]: 2022-07-03T18:54:04.496500Z 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2022-07-03T13:54:04+00:00 172.24.0.1 servers-mysql-1[2236]: 2022-07-03T18:54:04.496505Z 0 [Note] InnoDB: Uses event mutexes
+2022-07-03T13:54:04+00:00 172.24.0.1 servers-mysql-1[2236]: 2022-07-03T18:54:04.496512Z 0 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+2022-07-03T13:54:04+00:00 172.24.0.1 servers-mysql-1[2236]: 2022-07-03T18:54:04.496515Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-07-03T13:54:04+00:00 172.24.0.1 servers-mysql-1[2236]: 2022-07-03T18:54:04.496520Z 0 [Note] InnoDB: Using Linux native AIO
+2022-07-03T13:54:04+00:00 172.24.0.1 servers-mysql-1[2236]: 2022-07-03T18:54:04.496857Z 0 [Note] InnoDB: Number of pools: 1
+2022-07-03T13:54:04+00:00 172.24.0.1 servers-mysql-1[2236]: 2022-07-03T18:54:04.496982Z 0 [Note] InnoDB: Using CPU crc32 instructions
+2022-07-03T13:54:04+00:00 172.24.0.1 servers-mysql-1[2236]: 2022-07-03T18:54:04.498381Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2022-07-03T13:54:04+00:00 172.24.0.1 servers-mysql-1[2236]: 2022-07-03T18:54:04.507849Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-07-03T13:54:04+00:00 172.24.0.1 servers-mysql-1[2236]: 2022-07-03T18:54:04.509606Z 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2022-07-03T13:54:04+00:00 172.24.0.1 servers-mysql-1[2236]: 2022-07-03T18:54:04.521389Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2022-07-03T13:54:04+00:00 172.24.0.1 servers-mysql-1[2236]: 2022-07-03T18:54:04.528868Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-07-03T13:54:04+00:00 172.24.0.1 servers-mysql-1[2236]: 2022-07-03T18:54:04.528973Z 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-07-03T13:54:04+00:00 172.24.0.1 servers-s_app1-1[2236]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.24.0.5. Set the 'ServerName' directive globally to suppress this message
+2022-07-03T13:54:04+00:00 172.24.0.1 servers-s_app1-1[2236]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.24.0.5. Set the 'ServerName' directive globally to suppress this message
+2022-07-03T13:54:04+00:00 172.24.0.1 servers-s_app1-1[2236]: [Sun Jul 03 18:54:04.259944 2022] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.2.34 configured -- resuming normal operations
+2022-07-03T13:54:04+00:00 172.24.0.1 servers-s_app1-1[2236]: [Sun Jul 03 18:54:04.260527 2022] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+2022-07-03T13:54:04+00:00 172.24.0.1 servers-mysql-1[2236]: 2022-07-03T18:54:04.604198Z 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2022-07-03T13:54:04+00:00 172.24.0.1 servers-mysql-1[2236]: 2022-07-03T18:54:04.608518Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2022-07-03T13:54:04+00:00 172.24.0.1 servers-mysql-1[2236]: 2022-07-03T18:54:04.608602Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2022-07-03T13:54:04+00:00 172.24.0.1 servers-mysql-1[2236]: 2022-07-03T18:54:04.610025Z 0 [Note] InnoDB: Waiting for purge to start
+2022-07-03T13:54:04+00:00 172.24.0.1 servers-mysql-1[2236]: 2022-07-03T18:54:04.660663Z 0 [Note] InnoDB: 5.7.38 started; log sequence number 12685957
+2022-07-03T13:54:04+00:00 172.24.0.1 servers-mysql-1[2236]: 2022-07-03T18:54:04.662463Z 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2022-07-03T13:54:04+00:00 172.24.0.1 servers-mysql-1[2236]: 2022-07-03T18:54:04.662530Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2022-07-03T13:54:04+00:00 172.24.0.1 servers-mysql-1[2236]: 2022-07-03T18:54:04.677013Z 0 [Note] InnoDB: Buffer pool(s) load completed at 220703 18:54:04
+2022-07-03T13:54:04+00:00 172.24.0.1 servers-mysql-1[2236]: 2022-07-03T18:54:04.693841Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.
+2022-07-03T13:54:04+00:00 172.24.0.1 servers-mysql-1[2236]: 2022-07-03T18:54:04.694659Z 0 [Note] Skipping generation of SSL certificates as certificate files are present in data directory.
+2022-07-03T13:54:04+00:00 172.24.0.1 servers-mysql-1[2236]: 2022-07-03T18:54:04.694874Z 0 [Warning] A deprecated TLS version TLSv1 is enabled. Please use TLSv1.2 or higher.
+2022-07-03T13:54:04+00:00 172.24.0.1 servers-mysql-1[2236]: 2022-07-03T18:54:04.695244Z 0 [Warning] A deprecated TLS version TLSv1.1 is enabled. Please use TLSv1.2 or higher.
+2022-07-03T13:54:04+00:00 172.24.0.1 servers-mysql-1[2236]: 2022-07-03T18:54:04.699791Z 0 [Warning] CA certificate ca.pem is self signed.
+2022-07-03T13:54:04+00:00 172.24.0.1 servers-mysql-1[2236]: 2022-07-03T18:54:04.700953Z 0 [Note] Skipping generation of RSA key pair as key files are present in data directory.
+2022-07-03T13:54:04+00:00 172.24.0.1 servers-mysql-1[2236]: 2022-07-03T18:54:04.703538Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2022-07-03T13:54:04+00:00 172.24.0.1 servers-mysql-1[2236]: 2022-07-03T18:54:04.703692Z 0 [Note] IPv6 is available.
+2022-07-03T13:54:04+00:00 172.24.0.1 servers-mysql-1[2236]: 2022-07-03T18:54:04.703758Z 0 [Note]   - '::' resolves to '::';
+2022-07-03T13:54:04+00:00 172.24.0.1 servers-mysql-1[2236]: 2022-07-03T18:54:04.703871Z 0 [Note] Server socket created on IP: '::'.
+2022-07-03T13:54:04+00:00 172.24.0.1 servers-mysql-1[2236]: 2022-07-03T18:54:04.707484Z 0 [Warning] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2022-07-03T13:54:04+00:00 172.24.0.1 servers-mysql-1[2236]: 2022-07-03T18:54:04.752202Z 0 [Note] Event Scheduler: Loaded 0 events
+2022-07-03T13:54:04+00:00 172.24.0.1 servers-mysql-1[2236]: 2022-07-03T18:54:04.753588Z 0 [Note] mysqld: ready for connections.
+2022-07-03T13:54:04+00:00 172.24.0.1 servers-mysql-1[2236]: Version: '5.7.38'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server (GPL)
+2022-07-03T13:56:14+00:00 172.24.0.1 servers-mysql-1[2236]: 2022-07-03T18:56:14.607163Z 0 [Note] Giving 0 client threads a chance to die gracefully
+2022-07-03T13:56:14+00:00 172.24.0.1 servers-mysql-1[2236]: 2022-07-03T18:56:14.607188Z 0 [Note] Shutting down slave threads
+2022-07-03T13:56:14+00:00 172.24.0.1 servers-mysql-1[2236]: 2022-07-03T18:56:14.607193Z 0 [Note] Forcefully disconnecting 0 remaining clients
+2022-07-03T13:56:14+00:00 172.24.0.1 servers-mysql-1[2236]: 2022-07-03T18:56:14.607198Z 0 [Note] Event Scheduler: Purging the queue. 0 events
+2022-07-03T13:56:14+00:00 172.24.0.1 servers-mysql-1[2236]: 2022-07-03T18:56:14.607291Z 0 [Note] Binlog end
+2022-07-03T13:56:14+00:00 172.24.0.1 servers-mysql-1[2236]: 2022-07-03T18:56:14.607723Z 0 [Note] Shutting down plugin 'ngram'
+2022-07-03T13:56:14+00:00 172.24.0.1 servers-mysql-1[2236]: 2022-07-03T18:56:14.607733Z 0 [Note] Shutting down plugin 'partition'
+2022-07-03T13:56:14+00:00 172.24.0.1 servers-mysql-1[2236]: 2022-07-03T18:56:14.607737Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2022-07-03T13:56:14+00:00 172.24.0.1 servers-mysql-1[2236]: 2022-07-03T18:56:14.607740Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2022-07-03T13:56:14+00:00 172.24.0.1 servers-mysql-1[2236]: 2022-07-03T18:56:14.607743Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2022-07-03T13:56:14+00:00 172.24.0.1 servers-mysql-1[2236]: 2022-07-03T18:56:14.607769Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2022-07-03T13:56:14+00:00 172.24.0.1 servers-mysql-1[2236]: 2022-07-03T18:56:14.607774Z 0 [Note] Shutting down plugin 'MyISAM'
+2022-07-03T13:56:14+00:00 172.24.0.1 servers-mysql-1[2236]: 2022-07-03T18:56:14.607784Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2022-07-03T13:56:14+00:00 172.24.0.1 servers-mysql-1[2236]: 2022-07-03T18:56:14.607788Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2022-07-03T13:56:14+00:00 172.24.0.1 servers-mysql-1[2236]: 2022-07-03T18:56:14.607790Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2022-07-03T13:56:14+00:00 172.24.0.1 servers-mysql-1[2236]: 2022-07-03T18:56:14.607793Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2022-07-03T13:56:14+00:00 172.24.0.1 servers-mysql-1[2236]: 2022-07-03T18:56:14.607796Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2022-07-03T13:56:14+00:00 172.24.0.1 servers-mysql-1[2236]: 2022-07-03T18:56:14.607798Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2022-07-03T13:56:14+00:00 172.24.0.1 servers-mysql-1[2236]: 2022-07-03T18:56:14.607800Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2022-07-03T13:56:14+00:00 172.24.0.1 servers-mysql-1[2236]: 2022-07-03T18:56:14.607803Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2022-07-03T13:56:14+00:00 172.24.0.1 servers-mysql-1[2236]: 2022-07-03T18:56:14.607805Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2022-07-03T13:56:14+00:00 172.24.0.1 servers-mysql-1[2236]: 2022-07-03T18:56:14.607807Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2022-07-03T13:56:14+00:00 172.24.0.1 servers-mysql-1[2236]: 2022-07-03T18:56:14.607810Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2022-07-03T13:56:14+00:00 172.24.0.1 servers-mysql-1[2236]: 2022-07-03T18:56:14.607812Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2022-07-03T13:56:14+00:00 172.24.0.1 servers-mysql-1[2236]: 2022-07-03T18:56:14.607815Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2022-07-03T13:56:14+00:00 172.24.0.1 servers-mysql-1[2236]: 2022-07-03T18:56:14.607817Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2022-07-03T13:56:14+00:00 172.24.0.1 servers-s_app1-1[2236]: [Sun Jul 03 18:56:14.608950 2022] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+2022-07-03T13:56:14+00:00 172.24.0.1 servers-mysql-1[2236]: 2022-07-03T18:56:14.607819Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2022-07-03T13:56:14+00:00 172.24.0.1 servers-mysql-1[2236]: 2022-07-03T18:56:14.607822Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2022-07-03T13:56:14+00:00 172.24.0.1 servers-mysql-1[2236]: 2022-07-03T18:56:14.607824Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2022-07-03T13:56:14+00:00 172.24.0.1 servers-mysql-1[2236]: 2022-07-03T18:56:14.607826Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2022-07-03T13:56:14+00:00 172.24.0.1 servers-mysql-1[2236]: 2022-07-03T18:56:14.607829Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2022-07-03T13:56:14+00:00 172.24.0.1 servers-mysql-1[2236]: 2022-07-03T18:56:14.607831Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2022-07-03T13:56:14+00:00 172.24.0.1 servers-mysql-1[2236]: 2022-07-03T18:56:14.607833Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2022-07-03T13:56:14+00:00 172.24.0.1 servers-mysql-1[2236]: 2022-07-03T18:56:14.607836Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2022-07-03T13:56:14+00:00 172.24.0.1 servers-mysql-1[2236]: 2022-07-03T18:56:14.607838Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2022-07-03T13:56:14+00:00 172.24.0.1 servers-mysql-1[2236]: 2022-07-03T18:56:14.607840Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2022-07-03T13:56:14+00:00 172.24.0.1 servers-mysql-1[2236]: 2022-07-03T18:56:14.607843Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2022-07-03T13:56:14+00:00 172.24.0.1 servers-mysql-1[2236]: 2022-07-03T18:56:14.607845Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2022-07-03T13:56:14+00:00 172.24.0.1 servers-mysql-1[2236]: 2022-07-03T18:56:14.607847Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2022-07-03T13:56:14+00:00 172.24.0.1 servers-mysql-1[2236]: 2022-07-03T18:56:14.607849Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2022-07-03T13:56:14+00:00 172.24.0.1 servers-mysql-1[2236]: 2022-07-03T18:56:14.607852Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2022-07-03T13:56:14+00:00 172.24.0.1 servers-mysql-1[2236]: 2022-07-03T18:56:14.607855Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2022-07-03T13:56:14+00:00 172.24.0.1 servers-mysql-1[2236]: 2022-07-03T18:56:14.607857Z 0 [Note] Shutting down plugin 'InnoDB'
+2022-07-03T13:56:14+00:00 172.24.0.1 servers-mysql-1[2236]: 2022-07-03T18:56:14.607903Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2022-07-03T13:56:14+00:00 172.24.0.1 servers-mysql-1[2236]: 2022-07-03T18:56:14.607951Z 0 [Note] InnoDB: Starting shutdown...
+2022-07-03T13:57:14+00:00 172.25.0.1 mysql[2236]: 2022-07-03 18:57:14+00:00 [Note] [Entrypoint]: Entrypoint script for MySQL Server 5.7.38-1debian10 started.
+2022-07-03T13:57:14+00:00 172.25.0.1 mysql[2236]: 2022-07-03 18:57:14+00:00 [Note] [Entrypoint]: Switching to dedicated user 'mysql'
+2022-07-03T13:57:14+00:00 172.25.0.1 mysql[2236]: 2022-07-03 18:57:14+00:00 [Note] [Entrypoint]: Entrypoint script for MySQL Server 5.7.38-1debian10 started.
+2022-07-03T13:57:14+00:00 172.25.0.1 mysql[2236]: 2022-07-03T18:57:14.426184Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2022-07-03T13:57:14+00:00 172.25.0.1 mysql[2236]: 2022-07-03T18:57:14.427450Z 0 [Note] mysqld (mysqld 5.7.38) starting as process 1 ...
+2022-07-03T13:57:14+00:00 172.25.0.1 mysql[2236]: 2022-07-03T18:57:14.430267Z 0 [Note] InnoDB: PUNCH HOLE support available
+2022-07-03T13:57:14+00:00 172.25.0.1 mysql[2236]: 2022-07-03T18:57:14.430288Z 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2022-07-03T13:57:14+00:00 172.25.0.1 mysql[2236]: 2022-07-03T18:57:14.430293Z 0 [Note] InnoDB: Uses event mutexes
+2022-07-03T13:57:14+00:00 172.25.0.1 mysql[2236]: 2022-07-03T18:57:14.430297Z 0 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+2022-07-03T13:57:14+00:00 172.25.0.1 mysql[2236]: 2022-07-03T18:57:14.430300Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-07-03T13:57:14+00:00 172.25.0.1 mysql[2236]: 2022-07-03T18:57:14.430304Z 0 [Note] InnoDB: Using Linux native AIO
+2022-07-03T13:57:14+00:00 172.25.0.1 mysql[2236]: 2022-07-03T18:57:14.430527Z 0 [Note] InnoDB: Number of pools: 1
+2022-07-03T13:57:14+00:00 172.25.0.1 mysql[2236]: 2022-07-03T18:57:14.430617Z 0 [Note] InnoDB: Using CPU crc32 instructions
+2022-07-03T13:57:14+00:00 172.25.0.1 mysql[2236]: 2022-07-03T18:57:14.431898Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2022-07-03T13:57:14+00:00 172.25.0.1 mysql[2236]: 2022-07-03T18:57:14.441124Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-07-03T13:57:14+00:00 172.25.0.1 mysql[2236]: 2022-07-03T18:57:14.442840Z 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2022-07-03T13:57:14+00:00 172.25.0.1 mysql[2236]: 2022-07-03T18:57:14.456907Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2022-07-03T13:57:14+00:00 172.25.0.1 mysql[2236]: 2022-07-03T18:57:14.468224Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-07-03T13:57:14+00:00 172.25.0.1 mysql[2236]: 2022-07-03T18:57:14.468352Z 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-07-03T13:57:14+00:00 172.25.0.1 mysql[2236]: 2022-07-03T18:57:14.503301Z 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2022-07-03T13:57:14+00:00 172.25.0.1 mysql[2236]: 2022-07-03T18:57:14.503928Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2022-07-03T13:57:14+00:00 172.25.0.1 mysql[2236]: 2022-07-03T18:57:14.503942Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2022-07-03T13:57:14+00:00 172.25.0.1 mysql[2236]: 2022-07-03T18:57:14.504278Z 0 [Note] InnoDB: 5.7.38 started; log sequence number 12685985
+2022-07-03T13:57:14+00:00 172.25.0.1 mysql[2236]: 2022-07-03T18:57:14.504388Z 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2022-07-03T13:57:14+00:00 172.25.0.1 mysql[2236]: 2022-07-03T18:57:14.504574Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2022-07-03T13:57:14+00:00 172.25.0.1 mysql[2236]: 2022-07-03T18:57:14.505888Z 0 [Note] InnoDB: Buffer pool(s) load completed at 220703 18:57:14
+2022-07-03T13:57:14+00:00 172.25.0.1 mysql[2236]: 2022-07-03T18:57:14.509356Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.
+2022-07-03T13:57:14+00:00 172.25.0.1 mysql[2236]: 2022-07-03T18:57:14.509377Z 0 [Note] Skipping generation of SSL certificates as certificate files are present in data directory.
+2022-07-03T13:57:14+00:00 172.25.0.1 mysql[2236]: 2022-07-03T18:57:14.509380Z 0 [Warning] A deprecated TLS version TLSv1 is enabled. Please use TLSv1.2 or higher.
+2022-07-03T13:57:14+00:00 172.25.0.1 mysql[2236]: 2022-07-03T18:57:14.509382Z 0 [Warning] A deprecated TLS version TLSv1.1 is enabled. Please use TLSv1.2 or higher.
+2022-07-03T13:57:14+00:00 172.25.0.1 mysql[2236]: 2022-07-03T18:57:14.509893Z 0 [Warning] CA certificate ca.pem is self signed.
+2022-07-03T13:57:14+00:00 172.25.0.1 mysql[2236]: 2022-07-03T18:57:14.509917Z 0 [Note] Skipping generation of RSA key pair as key files are present in data directory.
+2022-07-03T13:57:14+00:00 172.25.0.1 mysql[2236]: 2022-07-03T18:57:14.510277Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2022-07-03T13:57:14+00:00 172.25.0.1 mysql[2236]: 2022-07-03T18:57:14.510298Z 0 [Note] IPv6 is available.
+2022-07-03T13:57:14+00:00 172.25.0.1 mysql[2236]: 2022-07-03T18:57:14.510305Z 0 [Note]   - '::' resolves to '::';
+2022-07-03T13:57:14+00:00 172.25.0.1 mysql[2236]: 2022-07-03T18:57:14.510314Z 0 [Note] Server socket created on IP: '::'.
+2022-07-03T13:57:14+00:00 172.25.0.1 mysql[2236]: 2022-07-03T18:57:14.512264Z 0 [Warning] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2022-07-03T13:57:14+00:00 172.25.0.1 mysql[2236]: 2022-07-03T18:57:14.520514Z 0 [Note] Event Scheduler: Loaded 0 events
+2022-07-03T13:57:14+00:00 172.25.0.1 mysql[2236]: 2022-07-03T18:57:14.520707Z 0 [Note] mysqld: ready for connections.
+2022-07-03T13:57:14+00:00 172.25.0.1 mysql[2236]: Version: '5.7.38'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server (GPL)
+2022-07-03T13:57:14+00:00 172.25.0.1 s_app1[2236]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.25.0.3. Set the 'ServerName' directive globally to suppress this message
+2022-07-03T13:57:14+00:00 172.25.0.1 s_app1[2236]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.25.0.3. Set the 'ServerName' directive globally to suppress this message
+2022-07-03T13:57:14+00:00 172.25.0.1 s_app1[2236]: [Sun Jul 03 18:57:14.277961 2022] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.2.34 configured -- resuming normal operations
+2022-07-03T13:57:14+00:00 172.25.0.1 s_app1[2236]: [Sun Jul 03 18:57:14.278009 2022] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+2022-07-03T13:57:17+00:00 172.25.0.1 s_app2[2236]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.25.0.2. Set the 'ServerName' directive globally to suppress this message
+2022-07-03T13:57:17+00:00 172.25.0.1 s_app2[2236]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.25.0.2. Set the 'ServerName' directive globally to suppress this message
+2022-07-03T13:57:17+00:00 172.25.0.1 s_app2[2236]: [Sun Jul 03 18:57:17.420918 2022] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.2.34 configured -- resuming normal operations
+2022-07-03T13:57:17+00:00 172.25.0.1 s_app2[2236]: [Sun Jul 03 18:57:17.420962 2022] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
